@@ -1,0 +1,51 @@
+{
+  "name": "chat-channels",
+  "version": "0.0.1",
+  "author": "Wong Wai Keat <waikeat.wong90@gmail.com>",
+  "homepage": "",
+  "private": true,
+  "repository": {
+    "type": "git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "build": "rimraf dist && brunch build --debug",
+    "build:production": "brunch build --debug --production",
+    "start": "brunch watch --debug",
+    "rmdist": "rimraf dist",
+    "lint": "eslint assets/scripts"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "dependencies": {
+    "acorn": "^6.3.0",
+    "autoprefixer": "^9.5.1",
+    "babel-brunch": "^7.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "brunch": "^2.10.12",
+    "copycat-brunch": "^1.1.1",
+    "csso": "^4.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.2",
+    "font-awesome": "^4.7.0",
+    "imagemin-brunch": "^1.1.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "postcss-brunch": "^2.1.0",
+    "rimraf": "^2.6.3",
+    "sass-brunch": "^2.10.8",
+    "tachyons-sass": "^4.9.3",
+    "vue": "^2.6.10",
+    "vue-json-csv": "^1.2.8",
+    "vue-select": "^3.1.0",
+    "vuetify": "^2.0.15"
+  },
+  "devDependencies": {}
+}

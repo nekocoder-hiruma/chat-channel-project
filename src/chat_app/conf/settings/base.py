@@ -24,7 +24,8 @@ env.read_env()
 include(
     'components/apps.py',
     'components/database.py',
-    'components/backends.py'
+    'components/backends.py',
+    'components/channels.py'
 )
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)

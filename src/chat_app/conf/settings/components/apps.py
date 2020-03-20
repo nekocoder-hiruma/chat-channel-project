@@ -14,11 +14,12 @@ THIRD_PARTY_APPS = (
     'channels_redis',
     'django',
     'rest_framework',
-    'django_nose'
+    'django_nose',
+    'arrow'
 )
 
 LOCAL_APPS = (
-
+    'chat',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

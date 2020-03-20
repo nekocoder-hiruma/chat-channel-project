@@ -15,6 +15,11 @@ channels-redis = "*"
 channels = "*"
 environs = "*"
 django-nose = "*"
+"psycopg2-binary" = "*"
+uwsgi = "*"
+invoke = "*"
+selenium = "*"
+arrow = "*"
 
 [requires]
 python_version = "3.7"

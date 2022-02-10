@@ -37,7 +37,7 @@
     "font-awesome": "^4.7.0",
     "imagemin-brunch": "^1.1.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "postcss-brunch": "^2.1.0",
     "rimraf": "^2.6.3",
     "sass-brunch": "^2.10.8",
